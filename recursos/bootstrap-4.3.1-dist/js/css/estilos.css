@@ -1,0 +1,31 @@
+.borde {
+    border: 1px solid black;
+}
+
+.fondo1 {
+    background: pink;
+}
+
+.fondo2 {
+    background: aqua;
+}
+
+.fondo3 {
+    background: coral;
+}
+
+.fondo4 {
+    background: khaki;
+}
+
+.fondo5 {
+    background: lightgreen;
+}
+
+.fondo6 {
+    background: fuchsia;
+}
+
+.alto {
+    height: 400px;
+}

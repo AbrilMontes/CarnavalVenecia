@@ -1,0 +1,103 @@
+body {
+    background-color: #000017;
+    color: white;
+}
+
+#logo {
+    display: inline-block;
+    width: 95px;
+    height: 70px;
+    background: url(../imagenes/logo.png) center center no-repeat;
+    z-index: 1000;
+    font-size: 0;
+    position: absolute;
+    top: -7px;
+    left: 10px;
+}
+
+#logo a {
+    font-size: 0;
+    overflow: hidden;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    background: #000017;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+iframe {
+    max-width: 90%;
+}
+
+video {
+    max-width: 90%;
+}
+
+iframe {
+    border: 0;
+}
+
+.plast {
+    text-align-last: center;
+}
+
+.card {
+    background-color: #08081b;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+footer {
+    background-color: #08081b;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+#fotomascara {
+    max-width: 100%;
+}
+
+#barra li a {
+    text-align: right;
+}
+
+.form-check {
+    display: inline-block;
+}
+
+form {
+    margin-right: 0 !important; 
+    margin-left: 0 !important;
+}
+
+#iframe {
+    text-align: center;
+}
+
+@media screen ("max-width: 576") {
+    video {
+        100%;
+    }
+
+    #tres h2 {
+        margin-top: 40px;
+    }
+}
